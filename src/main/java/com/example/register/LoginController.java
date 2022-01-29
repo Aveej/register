@@ -52,7 +52,7 @@ public class LoginController {
     @RequestMapping(value = {"logout"}, method = RequestMethod.POST)
     public String logoutDo(HttpServletRequest request, HttpServletResponse response)
     {
-        return "redirect:/log";
+        return "redirect:/login";
     }
 }
 
